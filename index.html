@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="CCF_logo.png">
+  <!--- FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header class="header container">
+    <div class="row">
+      <nav class="nav">
+        <ul class="nav__list row">
+          <li class="nav__list__item"><a class="nav__list__link" href="#events">Events</a></li>
+          <li class="nav__list__item"><a class="nav__list__link" href="#unique_features">Winter Warmth</a></li>
+          <li class="nav__list__item"><a class="nav__list__link" href="#reviews">Reviews</a></li>
+          <li class="nav__list__item"><a class="nav__list__link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      <div class="logo-container">
+        <a href="#"><img class="logo__img" src="Cosy_Christmas_Fair_logo.png" alt="The Cosy Christmas Fair logo"></a>
+      </div>
+    </div>
+    <div class="hero row"> <!-- ADD IMG -->
+      <div class="hero__text">
+        <h1 class="hero__title title">The Cosy Christmas Fair</h1>
+        <h2 class="hero__subtitle">Experience a Christmas like never before</h2>
+      </div>
+      <div class="hero__img">
+        <img src="christmas_hero_img.png" alt="Christmas Fair image">
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="intro">
+      <img class="img intro__img intro__img1" src="christmas_fairy_lights_img.png" alt="Warm white Christmas fairy lights">
+      <img class="img intro__img intro__img2 intro__img__hidden rotate" src="christmas_fairy_lights_img.png" alt="Warm white Christmas fairy lights">
+      <div class="container">
+        <p>Escape the winter frost without substantial cost.</p>
+        <p>Our Christmas Fair offers heated spots to relax, festive hot drinks and much more!</p>
+      </div>
+      <img class="img intro__img intro__img3 intro__img__hidden rotate shift2" src="christmas_fairy_lights_img.png" alt="Warm white Christmas fairy lights">
+      <img class="img intro__img intro__img4" src="christmas_fairy_lights_img.png" alt="Warm white Christmas fairy lights">
+    </section>
+
+    <section class="events container" id="events">
+      <h2 class="title section-title">Events</h2>
+      <div class="events__row">
+        <div class="events__text events__text__left">
+          <h3 class="section-subtitle">Food</h3>
+          <p>From warm mince pies to steaming hot chocolates, you'll find delicious food around the fair in stalls. You'll find something you love to warm you up and keep you energised.</p>
+        </div>
+        <div class="row two-imgs">
+          <img class="events__img img" src="mince_pies_img.jpg" alt="Warm mince pie">
+          <!-- <img class="events__img img" src="festive_hot_drinks_img.jpg" alt="Festive hot drinks"> -->
+        </div>
+      </div>
+
+      <div class="events__row">
+        <!-- PUT A DIV FOR IMG to make flex easier? -->
+        <img class="events__img img events__img__hidden--left" src="microphone_img2.png" alt="Microphone with Christmas lights in background">
+        <div class="events__text events__text__right">
+          <h3 class="section-subtitle">Live Music</h3>
+          <p>Are you fan of Christmas music? Join the Christmas fair and experience lively music from classic Christmas carols to the Christmas songs we all know and love.</p>
+        </div>
+        <img class="events__img img events__img__hidden" src="microphone_img2.png" alt="Microphone with Christmas lights in background">
+      </div>
+
+      <div class="events__row">
+        <div class="events__text events__text__left">
+          <h3 class="section-subtitle">Raffle</h3>
+          <p>Who said you have to wait until Christmas Day to get a gift?</p>
+          <p>We have a range of gifts for anyone. Join the Christmas Raffle and see what you could win!</p>
+        </div>
+        <img class="events__img img" src="christmas_presents_img2.png" alt="Christmas presents">
+      </div>
+      <!-- <img alt="Holly"> maybe don't include -->
+    </section>
+
+    <section class="unique_features container" id="unique_features">
+      <h2 class="title section-title unique_features__heading">Where winter feels warmer</h2>
+      <div class="row unique_features__row">
+        <div class="unique_feature1 col">
+          <img class="img unique_feature1__img" src="wooly_hats_img.jpg" alt="Colourful hats">
+          <h3 class="section-subtitle">Rent a hat</h3>
+          <p>Feeling cold this winter? We've got you covered! Rent a hat or scarf of your choice at an amazing value! Choose from a variety of colours and patterns...</p>
+        </div>
+        <div class="unique_feature2 col">
+          <img class="img unique_feature2__img" src="fireplace_AI_img.png" alt="Fireplace with Christmas lights above it">
+          <h3 class="section-subtitle">Warm up by the fireplace</h3>
+          <p>Socialize and warm up by the fire in our indoor Christmas area.</p>
+          <p>The crackling fire will keep you warm during the coldest months of the year.</p>
+        </div>
+      </div>
+    </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <h2 class="section-title reviews-title">What our customers say</h2>
+          <div class="row">
+            <div class="review">
+              <p>Hands down, the best Christmas event I've been to. So many lights and such a joyful atmosphere</p>
+              <p>Customer 1</p>
+            </div>
+            <div class="review">
+              <p>Affordable, lively and overall a fantastic experience! Enjoyed every minute</p>
+              <p>Customer 2</p>
+            </div>
+            <div class="review">
+              <p>Wow! The best place to spend Christmas with friends and family</p>
+              <p>Customer 3</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing row" id="pricing">
+        <div class="container">
+          <div class="row">
+            <div class="pricing__card">
+              <h2 class="pricing__card__heading">Individual</h2>
+              <p>£.......</p>
+            </div>
+            <div class="pricing__card">
+              <h2 class="pricing__card__heading">Group</h2>
+              <p>£.......</p>
+            </div>
+          </div>
+          <a class="pricing__btn" target="_blank">Book tickets</a>
+        </div>
+      </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer__nav col1">
+          <ul class="footer__nav__list">
+            <li class="footer__nav__list__item"><a class="footer__nav__list__link" href="#events">Events</a></li>
+            <li class="footer__nav__list__item"><a class="footer__nav__list__link" href="#unique_features">Winter Warmth</a></li>
+            <li class="footer__nav__list__item"><a class="footer__nav__list__link" href="#reviews">Reviews</a></li>
+            <li class="footer__nav__list__item"><a class="footer__nav__list__link" href="#pricing">Pricing</a></li>
+          </ul>
+          </div>
+        <div class="footer__contact col2">
+          <ul class="footer__contact__list">
+            <li class="footer__contact__list__item"><img class="footer__contact__list__img" src="phone-icon.svg" alt="Phone icon">Phone Number</li>
+            <li class="footer__contact__list__item"><img class="footer__contact__list__img" src="mail-icon.svg" alt="Email icon">Email Address</li>
+          </ul>
+        </div>
+        <div class="footer__subheading col3">
+          Experience a Christmas like never before
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
