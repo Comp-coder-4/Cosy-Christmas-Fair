@@ -4,8 +4,9 @@ Welcome! This web page features a fictitious Christmas Fair and was designed usi
 
 ## Key Files shortcut
 1. [Wireframe](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/figma_wireframe.png)
-2. [HTML file](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/index.html)
-3. [CSS file](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/style.css)
+2. [Moodboard](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/moodboard.png)
+3. [HTML file](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/index.html)
+4. [CSS file](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/style.css)
 
 ## Key techniques:
 - CSS flexbox
@@ -15,5 +16,6 @@ Welcome! This web page features a fictitious Christmas Fair and was designed usi
 In this repo, files are ordered alphabetically
 ### Key Files:
 1. Wireframe = figma_wireframe.png
-2. HTML file = index.html
-3. CSS file = style.css
+2. Moodboard = moodboard.png
+3. HTML file = index.html
+4. CSS file = style.css
