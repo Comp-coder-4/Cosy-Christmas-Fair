@@ -9,7 +9,7 @@ Welcome! This web page features a fictitious Christmas Fair and was designed usi
 4. [CSS file](https://github.com/Comp-coder-4/Cosy-Christmas-Fair/blob/main/style.css)
 
 ## Key techniques:
-- CSS flexbox
+- CSS Flexbox 
 - Media queries
 
 ## File structure
